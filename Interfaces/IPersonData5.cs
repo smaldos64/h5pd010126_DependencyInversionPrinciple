@@ -1,5 +1,4 @@
 ﻿using DependencyInversionPrinciple.Enums;
-using DependencyInversionPrinciple.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace DependencyInversionPrinciple.Interfaces
 {
-    public interface IEmployeeSearchable2
+    public interface IPersonData5
     {
-        IEnumerable<Employee2> GetEmployeesByGenderAndPosition(Gender gender, Position position);
+        Gender Gender { get; set; }
+        Position Position { get; set; }
     }
 }

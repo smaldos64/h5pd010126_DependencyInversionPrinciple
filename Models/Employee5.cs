@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DependencyInversionPrinciple.Models
 {
-    public class Employee3 : IPersonData3
+    public class Employee5 : IPersonData5
     {
         public string? Name { get; set; }
         public Gender Gender { get; set; }

@@ -1,5 +1,4 @@
 ﻿using DependencyInversionPrinciple.Enums;
-using DependencyInversionPrinciple.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DependencyInversionPrinciple.Models
 {
-    public class Employee3 : IPersonData3
+    public class Employee2
     {
         public string? Name { get; set; }
         public Gender Gender { get; set; }
