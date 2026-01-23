@@ -89,6 +89,7 @@ namespace DependencyInversionPrinciple
             Console.WriteLine($"Number of Persons (Employees - Students) Objects in List (5_6) is : {numberOfPersonsInList}");
             Console.WriteLine();
 
+            Console.WriteLine("Udskrift af liste");
             List<IPersonData5> iPersondataList = stats5.GetAllData();
             iPersondataList.PrintCollection();
         }

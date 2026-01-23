@@ -39,6 +39,7 @@ namespace DependencyInversionPrinciple.Tools
             // Hent alle public properties
             PropertyInfo[] properties = type.GetProperties();
 
+            Console.WriteLine($"Objekt Type    : {type.Name, -15}");
             foreach (var prop in properties)
             {
                 // SIKKERHED: Spring indexere over (f.eks. Item[int]), 
