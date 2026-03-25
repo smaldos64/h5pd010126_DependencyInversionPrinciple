@@ -5,5 +5,5 @@ Koden er også udvidet, så der også arbejdes med Generics, Expressions og Refl
 Projektet,som er et simpelt C# konsol projekt, er struktureret på den måde, at det består af en Program.cs fil, som anvender en hel stribe *.cs filer. Alle *.cs filer er navngivet med et tal som den sidste 
 karakter i filnavnet. Dette tal viser hvilke *.cs filer, der "hører sammen". 
 
-Den eneste undtagelse fra denne regel er filen : PrintTools.cs som lever sit eget liv. Funktionere i denne fil er et godt eksemple på, hvor let det er at lave almene funktioner i C#, når man benytter sig af Generics 
+Den eneste undtagelse fra denne regel er filen : PrintTools.cs som lever sit eget liv. Funktionere i denne fil er et godt eksempel på, hvor let det er at lave almene funktioner i C#, når man benytter sig af Generics 
 og Refletion. De samme principper som Entity Frameork benytter sig af.  
