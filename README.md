@@ -1,4 +1,4 @@
-Projektet her er lavet ud fra en beksrivelse fra dette link : https://code-maze.com/dependency-inversion-principle/ 
+Projektet her er lavet ud fra en beskrivelse fra dette link : https://code-maze.com/dependency-inversion-principle/ 
 
 Koden er også udvidet, så der også arbejdes med Generics, Expressions og Reflections samt Self statiske metoder. ALt sammen er lavet på en god og overskuelig måde, så man let kan forstå principperne og koden i projektet.
 
